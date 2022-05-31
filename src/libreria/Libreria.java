@@ -6,11 +6,7 @@
 package libreria;
 
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import entidades.Autor;
-import java.util.UUID;
+
 import servicios.ServiceAutor;
 import servicios.ServiceEditorial;
 import servicios.ServiceLibro;

@@ -6,7 +6,6 @@
 package servicios;
 
 import entidades.Editorial;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import javax.persistence.EntityManager;

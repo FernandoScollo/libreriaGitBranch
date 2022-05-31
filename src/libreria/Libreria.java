@@ -27,15 +27,7 @@ public class Libreria {
                ServiceAutor serviAutor = new ServiceAutor();
                ServiceEditorial serviEditorial = new ServiceEditorial();
                ServiceLibro serviLibro = new ServiceLibro();
-               
-//               serviAutor.createAutorOnDB();
-//               serviAutor.createAutorOnDB();
-//               serviEditorial.createEditorialOnDB();
-//               serviEditorial.createEditorialOnDB();
                serviLibro.createLibroOnDB();
-               //serviAutor.consultarAutores();
-            
-            
         } catch (Exception e) {
         }
     }

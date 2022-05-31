@@ -28,6 +28,7 @@ public class Libreria {
                ServiceEditorial serviEditorial = new ServiceEditorial();
                ServiceLibro serviLibro = new ServiceLibro();
                serviLibro.createLibroOnDB();
+               serviLibro.createLibroOnDB();
         } catch (Exception e) {
         }
     }
